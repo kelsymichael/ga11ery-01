@@ -1,6 +1,6 @@
 ---
 title: Peace
-image: /images/diffusionbee/dd03.jpeg
+image: /images/dd03.jpg
 larger: ''
 alt: >-
   The sea weaves inland, between eroded rocks. A shoal of fish is seen darting
