@@ -1,6 +1,6 @@
 ---
 title: In The Garden
-image: /images/diffusionbee/ee07.jpeg
+image: /images/ee07.jpg
 alt: >-
   Old Rainbow comic strip with the text changed. The dialogue is now about
   finger sucking because all the characters appear to have their fingers in
