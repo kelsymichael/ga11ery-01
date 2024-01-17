@@ -14,30 +14,29 @@
     <div class="caption" id="meta">
       <h1>{{ title }}</h1>
       {% if date %}
-      <time datetime="{{ date | w3cDateFilter }}">
-        {{ date | dateFilter }}
-      </time>
+        <time datetime="{{ date | w3cDateFilter }}">
+          {{ date | dateFilter }}
+        </time>
       {% endif %}
       {% if description %}
-      <button class="q" aria-label="show description" hidden>[?]</button>
+        <button class="q" aria-label="show description" hidden>[?]</button>
       {% endif %}
     </div>
   </header>
   <main>
     <figure>
       <a href="{{ base }}{% if larger %}{{ larger }}{% else %}{{ image }}{% endif %}">
-        <img src="{{ base }}{{ image }}" alt="{{ alt }} (press to enlarge)" aria-describedby="meta" loading="lazy">
-      </a>
-    </figure>
-  </main>
-  {% include 'layouts/nav.njk' %}
-</div>
-{% if description %}
-<div role="dialog" aria-labelledby="desc" tabindex="-1">
-  <div>
-    <p id="desc">{{ description }}</p>
-    <button class="close" aria-label="close" hidden>[close]</button>
+        <img src="{{ base }}{{ image }}" alt="{{ alt }} (press to enlarge)" aria-describedby="meta" loading="lazy"></a>
+      </figure>
+    </main>
+    {% include 'layouts/nav.njk' %}
   </div>
-</div>
-{% endif %}
-{% include 'layouts/foot.njk' %}
+  {% if description %}
+    <div role="dialog" aria-labelledby="desc" tabindex="-1">
+      <div>
+        <p id="desc">{{ description }}</p>
+        <button class="close" aria-label="close" hidden>[close]</button>
+      </div>
+    </div>
+  {% endif %}
+  {% include 'layouts/foot.njk' %}
