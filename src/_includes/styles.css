@@ -1,10 +1,11 @@
 html {
   text-align: center;
-  --color-light: #fff;
+  --color-light: #efefef;
   background-color: var(--color-light);
-  --color-dark: #000;
+  --color-dark: black;
   color: var(--color-dark);
-  --family: monospace;
+  --family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-family: var(--family);
 }
 
@@ -26,21 +27,32 @@ p {
 
 .wrapper {
   min-height: 100vh;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  max-width: 540px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0);
   max-height: calc(100vh - 16rem);
+  transition: box-shadow 400ms ease-in-out;
+}
+
+img:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.25);
 }
 
 main {
   margin: auto;
+  max-width: 100%;
 }
 
-nav, header, main {
+nav,
+header,
+main {
   padding: 2em 1em;
 }
 
@@ -81,7 +93,7 @@ nav ul a span {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 .with-js [role="dialog"] {
@@ -141,14 +153,14 @@ button::-moz-focus-inner {
   white-space: nowrap;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
-    --color-light: #000;
+    --color-light: purple;
     --color-dark: #fff;
   }
 
   [role="dialog"] {
-    --color-dark: #000;
+    --color-dark: purple;
     --color-light: #fff;
   }
-}
+} */

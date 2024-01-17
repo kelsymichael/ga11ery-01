@@ -1,50 +1,50 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Ga11ery</title>
+    <title>cattrash</title>
     <link>https://goofy-nightingale-8088ae.netlify.com</link>
-    <description>An Eleventy gallery starter kit</description>
+    <description>A site with generated images and writings</description>
     <language>en-us</language>
-    <lastBuildDate>2020-04-02T15:51:06.349Z</lastBuildDate>
-    <atom:link href="https://every-layout.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>2022-12-01T18:07:46.000Z</lastBuildDate>
+    <atom:link href="https://goofy-nightingale-8088ae.netlify.com/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Peace</title>
-      <link>https://goofy-nightingale-8088ae.netlify.com/posts/peace/</link>
-      <pubDate>2020-04-08T15:59:36.910Z</pubDate>
-      <guid>https://goofy-nightingale-8088ae.netlify.com/posts/peace/</guid>
+      <link>https://goofy-nightingale-8088ae.netlify.com/posts/manyrobots-somepeople/</link>
+      <pubDate>2024-01-16T00:00:00.000Z</pubDate>
+      <guid>https://goofy-nightingale-8088ae.netlify.com/posts/manyrobots-somepeople/</guid>
       <description>
-        <img src="https://goofy-nightingale-8088ae.netlify.com/images/peace.png" alt="The sea weaves inland, between eroded rocks. A shoal of fish is seen darting under the water. A woman in a boat and a man swimming enjoy the sun." />
+        <img src="https://goofy-nightingale-8088ae.netlify.com/images/diffusionbee/dd03.jpeg" alt="The sea weaves inland, between eroded rocks. A shoal of fish is seen darting under the water. A woman in a boat and a man swimming enjoy the sun." />
       </description>
     </item>
     
     <item>
-      <title>Smiling Marx</title>
-      <link>https://goofy-nightingale-8088ae.netlify.com/posts/smiling-marx/</link>
-      <pubDate>2020-04-08T16:50:09.567Z</pubDate>
-      <guid>https://goofy-nightingale-8088ae.netlify.com/posts/smiling-marx/</guid>
+      <title>People in the Park</title>
+      <link>https://goofy-nightingale-8088ae.netlify.com/posts/people-in-park/</link>
+      <pubDate>2024-01-16T00:00:00.000Z</pubDate>
+      <guid>https://goofy-nightingale-8088ae.netlify.com/posts/people-in-park/</guid>
       <description>
-        <img src="https://goofy-nightingale-8088ae.netlify.com/images/marx.png" alt="The heavily bearded Karl Marx smiles brightly. Line drawing." />
+        <img src="https://goofy-nightingale-8088ae.netlify.com/images/diffusionbee/ee05.jpeg" alt="The heavily bearded Karl Marx smiles brightly. Line drawing." />
       </description>
     </item>
     
     <item>
-      <title>In Training</title>
-      <link>https://goofy-nightingale-8088ae.netlify.com/posts/in-training/</link>
-      <pubDate>2020-04-09T10:01:55.472Z</pubDate>
-      <guid>https://goofy-nightingale-8088ae.netlify.com/posts/in-training/</guid>
+      <title>In The Garden</title>
+      <link>https://goofy-nightingale-8088ae.netlify.com/posts/robot-in-garden/</link>
+      <pubDate>2024-01-16T00:00:00.000Z</pubDate>
+      <guid>https://goofy-nightingale-8088ae.netlify.com/posts/robot-in-garden/</guid>
       <description>
-        <img src="https://goofy-nightingale-8088ae.netlify.com/images/comic2.png" alt="Old Rainbow comic strip with the text changed. The dialogue is now about finger sucking because all the characters appear to have their fingers in their mouths." />
+        <img src="https://goofy-nightingale-8088ae.netlify.com/images/diffusionbee/ee07.jpeg" alt="Old Rainbow comic strip with the text changed. The dialogue is now about finger sucking because all the characters appear to have their fingers in their mouths." />
       </description>
     </item>
     
     <item>
-      <title>CERN</title>
-      <link>https://goofy-nightingale-8088ae.netlify.com/posts/cern/</link>
-      <pubDate>2020-04-09T16:07:44.235Z</pubDate>
-      <guid>https://goofy-nightingale-8088ae.netlify.com/posts/cern/</guid>
+      <title>robot park 01</title>
+      <link>https://goofy-nightingale-8088ae.netlify.com/posts/robotpark/</link>
+      <pubDate>2024-01-16T00:00:00.000Z</pubDate>
+      <guid>https://goofy-nightingale-8088ae.netlify.com/posts/robotpark/</guid>
       <description>
-        <img src="https://goofy-nightingale-8088ae.netlify.com/images/cern1.jpg" alt="A silhouette of a man standing at the bottom of a vast cylindrical structure" />
+        <img src="https://goofy-nightingale-8088ae.netlify.com/images/diffusionbee/dd01.jpeg" alt="A silhouette of a man standing at the bottom of a vast cylindrical structure" />
       </description>
     </item>
     

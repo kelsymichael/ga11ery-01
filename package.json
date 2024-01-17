@@ -19,12 +19,12 @@
   },
   "homepage": "https://github.com/Heydon/ga11ery#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "cross-env": "^7.0.2",
-    "cssnano": "^4.1.10",
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-plugin-rss": "^1.2",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.14",
     "html-minifier": "^4.0.0",
-    "postcss": "^7.0.27",
-    "postcss-cli": "^7.1.0"
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0"
   }
 }
