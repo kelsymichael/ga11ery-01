@@ -1,5 +1,5 @@
 {
-  "name": "Ga11ery",
+  "name": "ga11ery",
   "version": "0.1.0",
   "description": "A simple site kit for sharing photos, illustrations, or your web comic",
   "main": ".eleventy.js",
@@ -19,12 +19,12 @@
   },
   "homepage": "https://github.com/Heydon/ga11ery#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2",
     "cross-env": "^7.0.3",
-    "cssnano": "^5.1.14",
+    "cssnano": "^6.0.3",
     "html-minifier": "^4.0.0",
-    "postcss": "^8.4.19",
-    "postcss-cli": "^10.1.0"
+    "postcss": "^8.4.33",
+    "postcss-cli": "^11.0.0"
   }
 }
