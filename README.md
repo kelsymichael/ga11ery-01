@@ -4,6 +4,8 @@ A minimal image sharing site kit, built with [11ty](https://www.11ty.dev/) and [
 
 ![A photo displayed with Ga11ery. Above it is the photo's title, and below it is the next, previous, and random navigation](illustration.png)
 
+updating for build, hopefully
+
 ## Example
 
 [Here's a little demo site, with just 4 images](https://goofy-nightingale-8088ae.netlify.com)
@@ -38,17 +40,14 @@ The CMS is configured and ready to use. But first, you need to set up authentica
 - You’re in and ready to edit your content!
 - **IMPORTANT: make sure you change Settings > Site info > Site URL to match the Netlify domain/URL of your new site, or your custom domain if configured**
 
-### Step 3: That's it!
+### Step 3: That's it
 
 Er... that's it!
 
 ## Version history
 
-* [0.1.0 Initial release](https://github.com/Heydon/ga11ery/releases/tag/0.1.0)
+- [0.1.0 Initial release](https://github.com/Heydon/ga11ery/releases/tag/0.1.0)
 
 ## Want to get writing instead?
 
 **Ga11ery** is just for sharing images. If you want a writing/blogging starter kit, try [**Hylia**](https://github.com/hankchizljaw/hylia).
-
-
-
