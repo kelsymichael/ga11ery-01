@@ -9,8 +9,17 @@
       <li>
         <a href="{{ base }}{{ links.first.url }}">
           ️
-          <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" class="icon first">
-            <path d="M0,8 16,0 16,16 M0,0 4,0 4,16 0,16"/>
+          {# <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" class="icon first">
+                                                              <path d="M0,8 16,0 16,16 M0,0 4,0 4,16 0,16"/>
+                                                            </svg> #}
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <title>move-layer-left</title>
+            <g fill="#212121">
+              <path d="M1,1A1,1,0,0,0,0,2V14a1,1,0,0,0,2,0V2A1,1,0,0,0,1,1Z"></path>
+              <path
+                d="M15,7H7.414l3.293-3.293A1,1,0,1,0,9.293,2.293l-5,5a1,1,0,0,0,0,1.414l5,5a1,1,0,0,0,1.414-1.414L7.414,9H15a1,1,0,0,0,0-2Z"
+                fill="#212121"></path>
+            </g>
           </svg>
           <span>first</span>
         </a>
@@ -18,9 +27,18 @@
     {% endif %}
     {% if links.prev %}
       <li>
-        <a href="{{ base }}{{ links.prev.url }}">
-          <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" class="icon prev">
-            <path d="M0,8 16,0 16,16"/>
+        <a
+          href="{{ base }}{{ links.prev.url }}">
+          {# <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" class="icon prev">
+                                                                                  <path d="M0,8 16,0 16,16"/>
+                                                                                </svg> #}
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <title>arrow-left</title>
+            <g fill="#212121">
+              <path
+                d="M15,7H3.414L6.707,3.707A1,1,0,0,0,5.293,2.293l-5,5a1,1,0,0,0,0,1.414l5,5a1,1,0,1,0,1.414-1.414L3.414,9H15a1,1,0,0,0,0-2Z"
+                fill="#212121"></path>
+            </g>
           </svg>
           <span>
             prev</span>
@@ -29,11 +47,22 @@
     {% endif %}
     {% if links.random %}
       <li>
-        <a class="random" href="{{ base }}{{ links.random.url }}">
-          <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 10" class="icon random">
-            <path d="M0,2 5,2 11,8 13,8 M0,8 5,8 11,2 13,2" fill="none" stroke-width="2" stroke="currentColor"/>
-            <path d="M13,0 16,2 13,4" fill="#000"/>
-            <path d="M13,6 16,8 13,10" fill="#000"/>
+        <a
+          class="random" href="{{ base }}{{ links.random.url }}">
+          {# <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 10" class="icon random">
+                      <path d="M0,2 5,2 11,8 13,8 M0,8 5,8 11,2 13,2" fill="none" stroke-width="2" stroke="currentColor"/>
+                      <path d="M13,0 16,2 13,4" fill="#000"/>
+                      <path d="M13,6 16,8 13,10" fill="#000"/>
+                    </svg> #}
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <title>shuffle</title>
+            <g fill="#212121">
+              <path d="M12.82,9.116A.5.5,0,0,0,12,9.5V11h-.185A3,3,0,0,1,9.557,9.975l-.4-.457L7.829,11.037l.223.255A5,5,0,0,0,11.815,13H12v1.5a.5.5,0,0,0,.288.453A.507.507,0,0,0,12.5,15a.5.5,0,0,0,.32-.116l3-2.5a.5.5,0,0,0,0-.768Z"></path>
+              <path
+                d="M12.82,1.116A.5.5,0,0,0,12,1.5V3h-.185A5,5,0,0,0,8.052,4.708L3.443,9.975A3,3,0,0,1,1.185,11H1a1,1,0,0,0,0,2h.185a5,5,0,0,0,3.763-1.708L9.557,6.025A3,3,0,0,1,11.815,5H12V6.5a.5.5,0,0,0,.288.453A.507.507,0,0,0,12.5,7a.5.5,0,0,0,.32-.116l3-2.5a.5.5,0,0,0,0-.768Z"
+                fill="#212121"></path>
+              <path d="M1,5h.185A3,3,0,0,1,3.443,6.025l.4.457L5.171,4.963l-.223-.255A5,5,0,0,0,1.185,3H1A1,1,0,0,0,1,5Z"></path>
+            </g>
           </svg>
           <span>random</span>
         </a>
@@ -41,9 +70,18 @@
     {% endif %}
     {% if links.next %}
       <li>
-        <a href="{{ base }}{{ links.next.url }}">
-          <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" class="icon next">
-            <path d="M0,0 16,8 0,16"/>
+        <a
+          href="{{ base }}{{ links.next.url }}">
+          {# <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" class="icon next">
+                                <path d="M0,0 16,8 0,16"/>
+                              </svg> #}
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <title>arrow-right</title>
+            <g fill="#212121">
+              <path
+                d="M10.707,2.293A1,1,0,0,0,9.293,3.707L12.586,7H1A1,1,0,0,0,1,9H12.586L9.293,12.293a1,1,0,1,0,1.414,1.414l5-5a1,1,0,0,0,0-1.414Z"
+                fill="#212121"></path>
+            </g>
           </svg>
           <span>next</span>
         </a>
@@ -51,9 +89,19 @@
     {% endif %}
     {% if links.last %}
       <li>
-        <a href="{{ base }}{{ links.last.url }}">
-          <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" class="icon last">
-            <path d="M0,0 16,8 0,16 M12,0 16,0 16,16 12,16"/>
+        <a
+          href="{{ base }}{{ links.last.url }}">
+          {# <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" class="icon last">
+                                                    <path d="M0,0 16,8 0,16 M12,0 16,0 16,16 12,16"/>
+                                                  </svg> #}
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <title>move-layer-right</title>
+            <g fill="#212121">
+              <path d="M15,1a1,1,0,0,0-1,1V14a1,1,0,0,0,2,0V2A1,1,0,0,0,15,1Z"></path>
+              <path
+                d="M6.707,2.293A1,1,0,0,0,5.293,3.707L8.586,7H1A1,1,0,0,0,1,9H8.586L5.293,12.293a1,1,0,1,0,1.414,1.414l5-5a1,1,0,0,0,0-1.414Z"
+                fill="#212121"></path>
+            </g>
           </svg>
           <span>last</span>
         </a>
