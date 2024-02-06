@@ -42,6 +42,7 @@ p {
 
 img {
   display: block;
+  height: auto;
   width: 100%;
   max-width: 540px;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0);

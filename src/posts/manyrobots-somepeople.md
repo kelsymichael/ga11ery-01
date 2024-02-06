@@ -1,7 +1,6 @@
 ---
 title: Peace
-image: /images/dd03.jpg
-larger: ''
+image: /images/dd01.jpg
 alt: >-
   The sea weaves inland, between eroded rocks. A shoal of fish is seen darting
   under the water. A woman in a boat and a man swimming enjoy the sun.
