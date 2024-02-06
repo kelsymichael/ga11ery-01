@@ -24,19 +24,22 @@
     </div>
   </header>
   <main>
-    <figure>
-      <a href="{{ base }}{% if larger %}{{ larger }}{% else %}{{ image }}{% endif %}">
-        <img src="{{ base }}{{ image }}" alt="{{ alt }} (press to enlarge)" aria-describedby="meta" loading="lazy"></a>
+    {% if image %}
+      <figure>
+        <a href="{{ base }}{{ image }}">
+          {% responsiveImage image, alt %}
+        </a>
       </figure>
-    </main>
-    {% include 'layouts/nav.njk' %}
-  </div>
-  {% if description %}
-    <div role="dialog" aria-labelledby="desc" tabindex="-1">
-      <div>
-        <p id="desc">{{ description }}</p>
-        <button class="close" aria-label="close" hidden>[close]</button>
-      </div>
+    {% endif %}
+  </main>
+  {% include 'layouts/nav.njk' %}
+</div>
+{% if description %}
+  <div role="dialog" aria-labelledby="desc" tabindex="-1">
+    <div>
+      <p id="desc">{{ description }}</p>
+      <button class="close" aria-label="close" hidden>[close]</button>
     </div>
-  {% endif %}
-  {% include 'layouts/foot.njk' %}
+  </div>
+{% endif %}
+{% include 'layouts/foot.njk' %}

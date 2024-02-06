@@ -3,11 +3,10 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      {% include 'styles.min.css' %}
-    </style>
+      {% include 'styles.min.css' %}</style>
     {% if home %}
-    <link rel="canonical" href="{{ base }}{{ originalUrl }}" />
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      <link rel="canonical" href="{{ base }}{{ originalUrl }}"/>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {% endif %}
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ base }}/feed.xml">
     <link rel="icon" href="{{ base }}/images/favicon.svg" type="image/svg+xml">
@@ -20,20 +19,22 @@
     <meta property="og:image:alt" content="{{ alt }}">
     <meta name="twitter:image" content="{{ base }}{{ image }}">
     <meta name="twitter:image:alt" content="{{ alt }}">
-    <title>{% if not home %}{{ title }} : {% endif %}{{ site.name }}</title>
+    <title>
+      {% if not home %}
+        {{ title }} :
+      {% endif %}
+      {{ site.name }}</title>
     <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "ImageObject",
-        "name": "{{ title }}",
-        {% if site.author %}
+      { "@context": "http://schema.org", "@type": "ImageObject", "name": "{{ title }}",
+      {% if site.author %}
         "creator": "{{ site.author }}"
-        {% endif %}
-        {% if description %}
+      {% endif %}
+      {% if description %}
         "description": "{{ description }}"
-        {% endif %}
-        "url": "{{ base }}{{ image }}"
-      }
+      {% endif %}
+      "url": "{{ base }}{{ image }}"
+            }
     </script>
   </head>
-  <body>
+  <body></body>
+</html>
